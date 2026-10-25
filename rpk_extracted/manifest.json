@@ -1,0 +1,51 @@
+{
+  "package": "com.yzyu.ycc.frogchina",
+  "name": "旅行青蛙",
+  "versionName": "1.0.14",
+  "versionCode": 15,
+  "minAPILevel": 1,
+  "minPlatformVersion": 1000,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.vibrator"
+    },
+    {
+      "name": "system.device"
+    }
+  ],
+  "permissions": [
+    {
+      "name": "hapjs.permission.DEVICE_INFO"
+    }
+  ],
+  "config": {
+    "logLevel": "error",
+    "designWidth": 432
+  },
+  "display": {
+    "backgroundColor": "#f7f0db"
+  },
+  "router": {
+    "entry": "pages/home",
+    "pages": {
+      "pages/home": {
+        "component": "index"
+      }
+    }
+  },
+  "packageInfo": {
+    "toolkit": "2.0.5",
+    "timeStamp": "2026-10-06T13:39:18.121Z",
+    "node": "v24.14.0",
+    "platform": "win32",
+    "arch": "x64",
+    "component": true
+  }
+}
